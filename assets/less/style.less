@@ -1,0 +1,75 @@
+/* 
+*Created by fengyang on 2018/11/14
+**/
+body{
+  font-size: 1.5rem;
+  #miguContainer{
+    /*页眉样式*/
+    .migu-header{
+      background-color: #43a047;
+      background-image: linear-gradient(to bottom, #43a047 0, #75c579 100%);
+      a{
+        color:#fff;
+      }
+      ul.am-dropdown-content{
+        li{
+          a{
+            color: #333;
+            &:hover{
+              background-color: #61c577;
+              color: #fff !important;
+            }
+          }
+        }
+        .am-active{
+          a{
+            background-color: #61c577;
+            color: #fff !important;
+          }
+        }
+      }
+      .am-collapse{
+        .am-nav{
+          margin-left: 20px;
+        }
+        .am-nav>li>a:focus, .am-nav>li>a:hover{
+          background-color: #67b166;
+        }
+      }
+
+    }
+    /*详情样式*/
+    .migu-detail {
+      background: #fff;
+      .detail-h2 {
+        text-align: center;
+        font-size: 150%;
+        margin: 40px 0;
+      }
+      .detail-h3 {
+        color: #1f8dd6;
+      }
+      .detail-p {
+        color: #7f8c8d;
+      }
+      .detail-mb {
+        margin-bottom: 30px;
+      }
+      .am-breadcrumb{
+        font-size: 100%;
+      }
+    }
+    /*页脚样式*/
+    .migu-footer{
+      p{
+        color: #7f8c8d;
+        margin: 0;
+        padding: 15px 0;
+        text-align: center;
+        background: #eee;
+        z-index: 1;
+      }
+    }
+  }
+}
+

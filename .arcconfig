@@ -1,0 +1,9 @@
+{
+  "project.name":"WEBPORTAL",
+  "phabricator.uri" : "http://172.18.172.108/",
+  "base": "arc:upstream,git:HEAD^",
+  "arc.land.onto.default": "dev",
+  "arc.land.update.default": "rebase",
+  "history.immutable": false,
+    "load": ["pinterest-linters"]
+}
