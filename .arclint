@@ -1,0 +1,9 @@
+{
+  "linters": {
+      "java": {
+          "type": "checkstyle",
+"include": "(\\.java$)",
+	          "checkstyle.config": "http://172.18.172.109:8080/massinger/arcanist/raw/master/checkstyle/config/huawei_checkstyle.xml"
+		  }
+		    }
+		    }

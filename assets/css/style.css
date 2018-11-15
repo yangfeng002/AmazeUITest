@@ -1,0 +1,64 @@
+/* 
+*Created by fengyang on 2018/11/14
+**/
+body {
+  font-size: 1.5rem;
+}
+body #miguContainer {
+  /*页眉样式*/
+  /*详情样式*/
+  /*页脚样式*/
+}
+body #miguContainer .migu-header {
+  background-color: #43a047;
+  background-image: linear-gradient(to bottom, #43a047 0, #75c579 100%);
+}
+body #miguContainer .migu-header a {
+  color: #fff;
+}
+body #miguContainer .migu-header ul.am-dropdown-content li a {
+  color: #333;
+}
+body #miguContainer .migu-header ul.am-dropdown-content li a:hover {
+  background-color: #61c577;
+  color: #fff !important;
+}
+body #miguContainer .migu-header ul.am-dropdown-content .am-active a {
+  background-color: #61c577;
+  color: #fff !important;
+}
+body #miguContainer .migu-header .am-collapse .am-nav {
+  margin-left: 20px;
+}
+body #miguContainer .migu-header .am-collapse .am-nav > li > a:focus,
+body #miguContainer .migu-header .am-collapse .am-nav > li > a:hover {
+  background-color: #67b166;
+}
+body #miguContainer .migu-detail {
+  background: #fff;
+}
+body #miguContainer .migu-detail .detail-h2 {
+  text-align: center;
+  font-size: 150%;
+  margin: 40px 0;
+}
+body #miguContainer .migu-detail .detail-h3 {
+  color: #1f8dd6;
+}
+body #miguContainer .migu-detail .detail-p {
+  color: #7f8c8d;
+}
+body #miguContainer .migu-detail .detail-mb {
+  margin-bottom: 30px;
+}
+body #miguContainer .migu-detail .am-breadcrumb {
+  font-size: 100%;
+}
+body #miguContainer .migu-footer p {
+  color: #7f8c8d;
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+  background: #eee;
+  z-index: 1;
+}

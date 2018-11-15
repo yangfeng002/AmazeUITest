@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>测试流程指南</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/x-icon" href="assets/i/favicon.ico">
+    <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+<div class="migu-container" id="miguContainer">
+    <header class="am-topbar am-topbar-fixed-top migu-header">
+        <div class="am-container">
+            <h1 class="am-topbar-brand">
+                <a href="#"><i class="am-icon-location-arrow am-icon-sm"></i>&nbsp;&nbsp;经分组测试</a>
+            </h1>
+            <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+                    data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+                    class="am-icon-bars"></span></button>
+
+            <div class="am-collapse am-topbar-collapse" id="collapse-head">
+                <ul class="am-nav am-nav-pills am-topbar-nav">
+                    <li class="" id="showHomeDetail"><a href="#">首页</a></li>
+                    <li class="am-dropdown" data-am-dropdown>
+                        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                            部门组别 <span class="am-icon-caret-down"></span>
+                        </a>
+                        <ul class="am-dropdown-content">
+                            <li class="am-dropdown-header">研发部门</li>
+                            <!-- 选中添加类am-active -->
+                            <li class="am-item-list"><a href="#" data-url="frontEnd">前端</a></li>
+                            <li class="am-divider"></li>
+                            <li class="am-item-list"><a href="#" data-url="port">接口</a></li>
+                            <li class="am-divider"></li>
+                            <li class="am-item-list"><a href="#" data-url="summary">汇总</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="migu-detail">
+        <div class="am-g am-container">
+            <!--首页内容-->
+            <div class="am-u-lg-12 am-home-detail am-show">
+                <ol class="am-breadcrumb">
+                    <li class="am-icon-home">&nbsp;&nbsp;首页</li>
+                </ol>
+                <h2 class="detail-h2"></h2>
+                <div class="am-g">
+                    <div class="am-u-lg-12 am-u-md-12 am-u-sm-12 detail-mb">
+                        <h3 class="detail-h3">
+                            <i class="am-icon-hand-o-right am-icon-sm"></i>
+                        </h3>
+                        <p class="detail-p">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--各部门内容信息-->
+            <div class="am-u-lg-12 am-dept-detail am-hide">
+                <ol class="am-breadcrumb">
+                    <li><a href="#" class="am-icon-home">首页</a></li>
+                    <li class="second-menu"><a href="#"></a></li>
+                    <li class="am-active third-menu"></li>
+                </ol>
+                <h2 class="detail-h2"></h2>
+                <div class="am-g">
+                    <div class="am-u-lg-12 am-u-md-12 am-u-sm-12 detail-mb">
+                        <h3 class="detail-h3">
+                            <i class="am-icon-hand-o-right am-icon-sm"></i>
+                        </h3>
+                        <p class="detail-p">
+                        <table class="am-table am-table-bordered am-table-striped am-table-compact">
+                            <thead>
+                                <tr>
+                                    <th width="5%">序号</th>
+                                    <th width="15%">测试点</th>
+                                    <th width="80%">测试内容</th>
+                                </tr>
+                            </thead>
+                            <tbody id="deptList">
+
+                            </tbody>
+                        </table>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="migu-footer am-topbar-fixed-bottom">
+        <p>
+            <span>&copy;咪咕互动娱乐有限公司版权所有</span>
+            &nbsp;&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn" target="_blank" id="recordNumber" style="color:#114af3;">苏ICP备16014093号-6</a>
+        </p>
+    </footer>
+</div>
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+<!--引入js文件-->
+<script src="assets/js/index.js"></script>
+</body>
+</html>
